@@ -1,31 +1,32 @@
 # Elementos gráficos
+TODO
+Son los diferentes elementos que se usarán para la representación en el dibujo. El objetivo de este texto no es estudiar la naturaleza de cada elemento, sino dar algunas **pautas o esquemas** base para la exploración y desarrollo de una **expresión gráfica** personal.
 
-1. [El Color](#el-color)
-    1. [Neutrales](#neutrales)
-    1. [Colores](#colores)
-1. [El Punto](#el-punto)
-1. [La Línea](#la-línea)
-    1. [Tipos](#tipos)
-    1. [Grosores](#grosores)
-1. [La Mancha](#la-mancha)
-    1. [Degradados](#degradados)
-1. [El Texto](#el-texto)
-1. [La Trama](#la-trama)
-1. [El Símbolo](#el-símbolo)
-    1. [Flechas](#flechas)
-    1. [Dimensiones](#dimensiones)
-1. [La Imagen](#la-imagen)
+Se intenta desarrollarlos de manera general, sin considerar ningún medio en particular.
 
-## El Color
+- [Color](#color)
+- [Punto](#punto)
+- [Línea](#línea)
+- [Mancha](#mancha)
+- [Texto](#texto)
+- [Trama](#trama)
+- [Símbolo](#símbolo)
+- [Imagen](#imagen)
 
-Propiedad inherente a cualquier elemento. En un dibujo por lo menos existen dos colores:
+## Color
+
+Propiedad visual inherente a cualquier elemento. En un dibujo por lo menos existen dos colores:
 
 - El del dibujo en sí
 - El del soporte
 
 Los colores tienen diferentes funciones, pueden ser parte de la **representación** del objeto, ayudar a la **jerarquización** de la información o mejorar la **legibilidad** de los elementos. De acuerdo a ello, la cantidad de colores usados aumentarán.
 
-La calidad final de un color depende del **medio** y **soporte** usados. Además la elección que se realice de tal color será acorde a la **expresión gráfica**, así, un tono negro puede ser neutral o con un algún matiz determinado.
+- Representación
+- Jerarquización
+- Legibilidad
+
+La calidad final de un color depende del **medio** y **soporte** usados. Además la elección que se realice de tal color será acorde a la **expresión gráfica** del dibujante, así, un tono negro puede ser neutral o con un algún matiz determinado.
 
 ### Neutrales
 
@@ -44,15 +45,15 @@ Colores con saturación diferente de cero. Compuesto por colores con diferente *
 - Negro, **tintes**, **sombras** y **tonos** de más de un color y blanco
 - Cualquiera de las anteriores más grises
 
-Inclusive se puede **invertir** los tonos blanco y negro, o **intercambiar** en negro o blanco por otros tonos manteniendo el **contraste** suficiente entre ambos.
+Inclusive se puede **invertir** los tonos blanco y negro, o **intercambiar** el negro o blanco por otros tonos manteniendo el **contraste** suficiente entre ambos.
 
-## El Punto
+## Punto
 
 El producto mínimo que se obtiene del medio empleado. Su tamaño mínimo dependerá del tipo de medio. Aunque su forma general es de un **círculo**, puede tener otras más, generalmente polígonos regulares.
 
 Generalmente es simétrico radialmente por lo que para variar su **tamaño** basta con hacerlo en una sola dirección.
 
-## La Línea
+## Línea
 
 Puede estar compuesta por diferentes elementos, desde puntos, trazos rectos o curvos hasta diferentes símbolos o figuras.
 
@@ -75,46 +76,68 @@ Los grosores disponibles dependen del medio empleado. Generalmente es un grosor 
 - Grosor fino y grueso
 - Grosor fino, regular y grueso
 
-## La Mancha
+Estos conjuntos pueden ampliarse todo lo necesario de acuerdo a las necesidades de representación del dibujante.
 
-Es cualquier forma que no sea considerada punto o línea. Posee un color uniforme o **relleno**. Su configuración puede ser de:
+## Mancha
+
+Es cualquier forma que no sea considerada punto o línea. Posee una distribución uniforme del color. Su configuración puede ser de:
 
 - Relleno sólido
 - Relleno degradado
 
+### Sólido
+
+Compuesto por un solo color y abarca toda la forma de manera uniforme. Para efectos más interesantes se le puede añadir alguna **textura** de manera sutil.
+
 ### Degradados
 
-Generalmente son uniformes aunque pueden ser irregulares, combinarse entre sí o con los rellenos sólidos. Los básicos son:
+Compuesto por una transición de al menos dos colores. Los degradados básicos son:
 
 - Degradado lineal
 - Degradado radial
 
+Pueden ser una transición uniforme o para ciertos efectos, una transición irregular, así como combinarse entre sí, con rellenos sólidos o texturas.
+
 Pueden variar por el número de colores o la forma que sigue el degradado.
 
-## El Texto
+## Texto
 
-Las principales propiedades a considerar en su variación son:
+Figuras que son las herramientas visuales del lenguaje. Como tales están compuestas de puntos, líneas y manchas. Podemos tener:
+
+- Textos de sólo línea
+- Textos de relleno vacío
+- Textos de relleno sólido
+- Textos de relleno degradado
+- Textos de relleno y línea adicional
+
+Además de las características anteriores, tenemos propiedades generales de las diferentes fuentes que podemos usar, como:
 
 - Altura
 - Tipografía
 - Estilo del trazado
 - Grosor del trazado
 
-## La Trama
+La variación de estas propiedades permite **jerarquizar** la información y mejorar la **legibilidad** del mismo.
 
-Conformada por puntos o líneas. Pueden reemplazar a las manchas. Existen dos tipos:
+## Trama
 
-- **Patrón**: tramas regulares
-- **Textura**: tramas irregulares
+Conformada por puntos, líneas o manchas. Permiten rellenar el área de una figura para expresar algo en particular. Existen dos tipos:
 
-Algunos patrones básicos:
+- Patrón
+- Textura
+
+### Patrón
+
+Son tramas regulares. Algunos patrones básicos:
 
 - Puntillismo
 - Líneas paralelas
 - Líneas cruzadas
 - Figuras geométricas
 
-Algunas texturas básicas:
+### Textura
+
+Son tramas irregulares. Algunas texturas básicas:
 
 - Puntillismo
 - Trazos rectos
@@ -122,9 +145,11 @@ Algunas texturas básicas:
 
 Se pueden conseguir más combinando las anteriores entre sí, variando el **espaciado** y la **orientación**.
 
-## El Símbolo
+## Símbolo
 
-Conformados por los anteriores elementos para significar algo específico. Algunos símbolos importantes:
+Conformados por los anteriores elementos para significar algo específico. Tienen diferentes usos, ya sea para representar algún objeto o mostrar un tipo de información en particular.
+
+Símbolos esenciales en cualquier representación básica:
 
 - Flechas
 - Dimensiones
@@ -145,6 +170,6 @@ Indican la medida de alguna magnitud de los objetos, generalmente longitud o án
 - Flecha
 - Diagonal
 
-## La Imagen
+## Imagen
 
 Un elemento complejo y compuesto por todo lo anterior. Puede variar en su formato o coloración.
